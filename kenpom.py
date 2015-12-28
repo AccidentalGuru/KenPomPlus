@@ -8,28 +8,29 @@ import csv
 app = Flask(__name__)
 TEAMS = []
 
+
 class Team:
     def __init__(self, arr):
         self.rank = arr[0]
         self.name = arr[1]
         self.conference = arr[2]
         self.win_loss = arr[3]
-        self.pyth = arr[4]
-        self.adj_o = arr[5]
+        self.pyth = float(arr[4])
+        self.adj_o = float(arr[5])
         self.adj_o_rank = arr[6]
-        self.adj_d = arr[7]
+        self.adj_d = float(arr[7])
         self.adj_d_rank = arr[8]
-        self.adj_t = arr[9]
+        self.adj_t = float(arr[9])
         self.adj_t_rank = arr[10]
         self.luck = arr[11]
         self.luck_rank = arr[12]
-        self.sos_pyth = arr[13]
+        self.sos_pyth = float(arr[13])
         self.sos_pyth_rank = arr[14]
-        self.sos_opp_o = arr[15]
+        self.sos_opp_o = float(arr[15])
         self.sos_opp_o_rank = arr[16]
-        self.sos_opp_d = arr[17]
+        self.sos_opp_d = float(arr[17])
         self.sos_opp_d_rank = arr[18]
-        self.ncsos_pyth = arr[19]
+        self.ncsos_pyth = float(arr[19])
         self.ncsos_pyth_rank = arr[20]
 
 
