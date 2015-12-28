@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat
 )](https://opensource.org/licenses/MIT)
 
-KenPom+ is an improved version of the popular college basketball statistics site [kenpom.com](www.kenpom.com). Some major improvements are...
+KenPom+ is an improved version of the popular college basketball statistics site [kenpom.com](www.kenpom.com). 
 
 - Fully responsive, mobile-friendly, edge-to-edge design
 - Visualize rankings with green -> red rank color
@@ -23,9 +23,3 @@ KenPom+ is an improved version of the popular college basketball statistics site
 - [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/)
 - [Requests](http://docs.python-requests.org/en/latest/)
 - [Bootstrap Table](http://bootstrap-table.wenzhixin.net.cn/)
-
-
-##Contact
-- MIT License
-- Created by Lee Robinson at Iowa State University.
-- leerob@iastate.edu
