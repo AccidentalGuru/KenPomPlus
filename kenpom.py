@@ -99,12 +99,12 @@ def retrieve_teams(soup):
 @app.route("/")
 def hello():
     # Scrape site for newest stats
-    # html = requests.get('http://kenpom.com/')
-    # soup = BeautifulSoup(html.text, "lxml")
-    # teams = retrieve_teams(soup)
+    html = requests.get('http://kenpom.com/')
+    soup = BeautifulSoup(html.text, "lxml")
+    teams = retrieve_teams(soup)
 
     # Or read from file
-    teams = read_teams()
+    # teams = read_teams()
     return render_template('index.html', teams=teams)
 
 @app.route("/<year>")
@@ -115,5 +115,5 @@ def change_year(year):
     return render_template('index.html', teams=teams)
 
 
-# if __name__ == '__main__':
-#     app.run()
+if __name__ == '__main__':
+    app.run()
