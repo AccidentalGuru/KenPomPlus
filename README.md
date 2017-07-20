@@ -1,4 +1,4 @@
-#KenPom+
+# KenPom+
 
 [![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat
 )](https://www.python.org)
@@ -17,7 +17,7 @@ KenPom+ is an improved version of the popular college basketball statistics site
 <img src="http://i.imgur.com/MvgWJ35.png" width="720" height="600" />
 
 
-##Resources
+## Resources
 
 - [Flask](http://flask.pocoo.org/)
 - [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/)
